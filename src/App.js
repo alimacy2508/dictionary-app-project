@@ -6,9 +6,6 @@ export default function App() {
     <div className="App">
       <header className="App-header"></header>
       <img src={DictionaryImage} className="App-logo img-fluid" alt="logo" />
-      <a href="#" className="btn btn-primary">
-        Button
-      </a>
     </div>
   );
 }
