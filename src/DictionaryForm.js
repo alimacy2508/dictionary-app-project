@@ -23,13 +23,9 @@ export default function DictionaryForm() {
     setSearchedword(event.target.value);
   }
   return (
-    <div className="Dictionary">
+    <div className="Dictionary text-center">
       <form onSubmit={handleSubmit}>
-        <input
-          type="search"
-          placeholder="Enter your chosen word"
-          onChange={updateSearchedword}
-        />
+        <input type="search" onChange={updateSearchedword} />
       </form>
       <Results results={results} />
     </div>
