@@ -6,6 +6,9 @@ export default function Results(props) {
     return (
       <div>
         <h2 className="text-center mt-4 mb-4">{props.results.word}</h2>
+        <h4 className="text-center mt-4">
+          <strong>Phonetic: </strong> <em>{props.results.phonetic}</em>
+        </h4>
         {props.results.meanings.map(function (meaning, index) {
           if (index >= 0 && index < 3) {
             return (
