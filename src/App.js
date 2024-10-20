@@ -9,9 +9,26 @@ export default function App() {
         <header className="App-header"></header>
         <img src={DictionaryImage} className="App-logo img-fluid" alt="logo" />
         <main>
-          <DictionaryForm />
+          <DictionaryForm defaultSearchedword={"cozy"} />
         </main>
-        <footer className="App-footer">Coded by Alice</footer>
+        <footer className="App-footer">
+          This project was coded by Alice and is open-sourced on{" "}
+          <a
+            href="https://github.com/alimacy2508/dictionary-app-project"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Github
+          </a>{" "}
+          and{" "}
+          <a
+            href="https://my-dictionary-project.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            hosted on Netlify
+          </a>
+        </footer>
       </div>
     </div>
   );
