@@ -3,6 +3,7 @@ import Meaning from "./Meaning.js";
 import "./Results.css";
 
 export default function Results(props) {
+
   function capitalizeString(props) {
     return props.charAt(0).toUpperCase() + props.slice(1);
   }
