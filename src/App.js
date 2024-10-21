@@ -9,7 +9,7 @@ export default function App() {
         <header className="App-header"></header>
         <img src={DictionaryImage} className="App-logo img-fluid" alt="logo" />
         <main>
-          <DictionaryForm defaultSearchedword={"cozy"} />
+          <DictionaryForm defaultSearchedword={"rainforest"} />
         </main>
         <footer className="App-footer">
           This project was coded by Alice and is open-sourced on{" "}
