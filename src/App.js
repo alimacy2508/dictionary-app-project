@@ -17,6 +17,7 @@ export default function App() {
             href="https://github.com/alimacy2508/dictionary-app-project"
             target="_blank"
             rel="noreferrer"
+            className="link"
           >
             Github
           </a>{" "}
@@ -25,6 +26,7 @@ export default function App() {
             href="https://my-dictionary-project.netlify.app/"
             target="_blank"
             rel="noreferrer"
+            className="link"
           >
             hosted on Netlify
           </a>
